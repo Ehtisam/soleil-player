@@ -1,0 +1,36 @@
+# Başlarken
+Soleil, cebe sığan, tuşlu bir müzik çalar. Ekranın altındaki iki ışık çubuğu çalan şarkıya eşlik eder, aralarında Soleil logosu durur.
+
+Cihazı açınca kısa bir açılış ekranı gelir. Herhangi bir tuşa basmak onu atlar. İstersen Sistem Ayarları'ndan tamamen kapatabilirsin.
+
+# Tuşlar
+Sağ yanda bir döner düğme (encoder), sol yanda üç, üstte iki tuş var.
+
+Döner düğme: çevirince listede gezer, tıklayınca seçer. Yarım saniye basılı tutmak, bulunduğun ekranın eylem menüsünü açar.
+
+Sol 1 ve Sol 2: oynatıcıda önceki ve sonraki şarkı, okurken önceki ve sonraki sayfa.
+
+Sol 3: geri.
+
+Üst 1: oynatıcıyı açar. Oynatıcıdayken şarkı sözlerini açar.
+
+Üst 2: oynatıcıda beğenir, okurken yazı boyutunu değiştirir.
+
+# Müzik
+Müzik bölümünde Spotify, yerel müzikler, Bluetooth ve radyo var. Bir playlist açıp şarkı seçince oynatıcı gelir.
+
+Oynatıcıda döner düğme sesi ayarlar, tıklamak duraklatır. Basılı tutunca karışık çalma, tekrar ve sarma seçenekleri çıkar.
+
+Menülerdeki alt bar küçük bir oynatıcıdır: çalan şarkı, sanatçı ve süre burada görünür. Üst kenarındaki çizgi şarkının ne kadarının çaldığını gösterir.
+
+# Okuma
+Notlar Medya / Metin içinde, kitaplar E-Kitap bölümünde durur. Bir dosyayı açtığında kaldığın yerden devam edersin; listedeki yüzde ne kadarını okuduğunu gösterir.
+
+Döner düğme metni iki satır kaydırır, tıklamak bir sayfa ilerletir. En üstteyken bir kez daha yukarı çevirirsen GERİ satırı seçilir.
+
+Kendi dosyalarını eklemek için .txt dosyalarını SD karttaki medya/metin ya da medya/kitap klasörüne koy. "# " ile başlayan satırlar bölüm başlığı olur.
+
+# Ayarlar
+Sistem Ayarları'nda tema rengi, parlaklık, ekran uykusu, ışık çubuklarının davranışı, okuma yazısının boyutu, Wi-Fi ve Bluetooth var.
+
+Tema seçerken döner düğmeyi çevirdikçe renk anında değişir. Beğenmezsen geri tuşuna basman yeterli, eski renk geri gelir.

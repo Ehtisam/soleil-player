@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1000" height="720" fill="#fbf7f0"/>
+  <text x="40" y="34" font-size="20" font-weight="600" fill="#3a2a14">Soleil bağlantı şeması (20.10.2026)</text>
+
+  <g fill="none" stroke-linecap="round">
+    <!-- sinyaller -->
+    <line x1="500" y1="120" x2="500" y2="270" stroke="#555" stroke-width="2"/>
+    <line x1="240" y1="245" x2="410" y2="300" stroke="#555" stroke-width="2"/>
+    <line x1="240" y1="355" x2="410" y2="360" stroke="#555" stroke-width="2"/>
+    <line x1="590" y1="300" x2="760" y2="290" stroke="#555" stroke-width="2"/>
+    <line x1="860" y1="330" x2="860" y2="360" stroke="#555" stroke-width="2"/>
+    <line x1="440" y1="420" x2="360" y2="440" stroke="#555" stroke-width="2"/>
+    <line x1="270" y1="470" x2="240" y2="470" stroke="#555" stroke-width="2"/>
+    <line x1="590" y1="505" x2="550" y2="505" stroke="#555" stroke-width="2"/>
+    <line x1="480" y1="550" x2="480" y2="600" stroke="#555" stroke-width="2"/>
+    <!-- I2C -->
+    <path d="M590 390 H740 M740 290 V505 M740 310 H760 M740 505 H760 M480 480 V455 H740" stroke="#2e86ab" stroke-width="2.5"/>
+    <!-- güç -->
+    <path d="M190 630 H230 M370 630 H410 M550 630 H590 M730 630 H770 M865 600 V565 H560 V420 M330 600 V520 H410" stroke="#c0392b" stroke-width="3"/>
+  </g>
+
+  <g font-size="13" fill="#444">
+    <text x="510" y="190">SPI: 8, 10, 11, 24, 25</text>
+    <text x="510" y="208">arka ışık: 12</text>
+    <text x="600" y="382" fill="#2e86ab">I2C (pin 3, 5)</text>
+    <text x="640" y="285">I2S: 18, 19, 20, 21</text>
+    <text x="490" y="582">KEY</text>
+    <text x="340" y="512" fill="#c0392b">pil +</text>
+    <text x="640" y="557" fill="#c0392b">5V (pin 2, 4)</text>
+  </g>
+
+  <g stroke="#8a5a1c" stroke-width="1.5">
+    <rect x="410" y="270" width="180" height="150" rx="10" fill="#ecd7b0"/>
+    <rect x="390" y="50" width="220" height="70" rx="8" fill="#fff"/>
+    <rect x="50" y="210" width="190" height="70" rx="8" fill="#fff"/>
+    <rect x="50" y="320" width="190" height="70" rx="8" fill="#fff"/>
+    <rect x="760" y="250" width="200" height="80" rx="8" fill="#fff"/>
+    <rect x="760" y="360" width="200" height="90" rx="8" fill="#fff"/>
+    <rect x="50" y="440" width="190" height="60" rx="8" fill="#fff"/>
+    <rect x="270" y="440" width="120" height="60" rx="8" fill="#fff"/>
+    <rect x="410" y="480" width="140" height="70" rx="8" fill="#fff"/>
+    <rect x="590" y="480" width="140" height="50" rx="8" fill="#fff"/>
+    <rect x="760" y="480" width="200" height="50" rx="8" fill="#fff"/>
+    <rect x="50" y="600" width="140" height="60" rx="8" fill="#fdecea"/>
+    <rect x="230" y="600" width="140" height="60" rx="8" fill="#fdecea"/>
+    <rect x="410" y="600" width="140" height="60" rx="8" fill="#fdecea"/>
+    <rect x="590" y="600" width="140" height="60" rx="8" fill="#fdecea"/>
+    <rect x="770" y="600" width="190" height="60" rx="8" fill="#fdecea"/>
+  </g>
+
+  <g font-size="15" font-weight="600" fill="#3a2a14" text-anchor="middle">
+    <text x="500" y="335">Raspberry Pi Zero 2 W</text>
+    <text x="500" y="80">Ekran ST7796S 3.5"</text>
+    <text x="145" y="238">Tuşlar</text>
+    <text x="145" y="348">Tekerlek encoder</text>
+    <text x="860" y="280">WM8960 ses</text>
+    <text x="145" y="465">Işık SK9822 2×6</text>
+    <text x="330" y="475">74AHCT125</text>
+    <text x="480" y="508">ATtiny85</text>
+    <text x="660" y="510">Logo güç tuşu</text>
+    <text x="860" y="510">DS3231 saat · 0x68</text>
+    <text x="120" y="635">LiPo 4000 mAh</text>
+    <text x="300" y="625">MAX17048</text>
+    <text x="480" y="625">IP5306 şarj</text>
+    <text x="660" y="635">İdeal diyot</text>
+    <text x="865" y="625">5V hattı</text>
+  </g>
+  <g font-size="13" fill="#555" text-anchor="middle">
+    <text x="500" y="357">40 pin</text>
+    <text x="500" y="100">dokunmatiksiz, SPI0</text>
+    <text x="145" y="260">S16 · O23 · L27 · E4 · İ22</text>
+    <text x="145" y="370">A5 · B6 · tık26</text>
+    <text x="860" y="302">I2C 0x1a</text>
+    <text x="860" y="385">Kulaklık soketi (üst kenar)</text>
+    <text x="860" y="407">Hoparlör (SPK+ / SPK−)</text>
+    <text x="860" y="429">Elektret mikrofon</text>
+    <text x="145" y="485">veri 13 · saat 17 · güç 15</text>
+    <text x="480" y="530">güç · pil ısısı · 0x2A</text>
+    <text x="300" y="645">pil % · I2C 0x36</text>
+    <text x="480" y="645">USB-C girişi</text>
+    <text x="865" y="645">Pi, ekran, WM8960, ışık</text>
+  </g>
+
+  <g font-size="13" fill="#444">
+    <line x1="40" y1="695" x2="70" y2="695" stroke="#c0392b" stroke-width="3"/>
+    <text x="78" y="699">güç</text>
+    <line x1="130" y1="695" x2="160" y2="695" stroke="#2e86ab" stroke-width="2.5"/>
+    <text x="168" y="699">I2C (iki tel, ortak hat)</text>
+    <line x1="330" y1="695" x2="360" y2="695" stroke="#555" stroke-width="2"/>
+    <text x="368" y="699">sinyal (sayılar = Pi'nin GPIO numaraları; fiziksel pinler bağlantılar.md'de)</text>
+  </g>
+</svg>

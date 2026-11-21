@@ -1,0 +1,13 @@
+# Alınacaklar
+- 3.5" SPI ekran
+- PCM5102 DAC
+- MAX98357A amfi + mini hoparlör
+- INMP441 mikrofon
+- encoder (tıklamalı)
+- 5 adet küçük buton
+- LiPo pil + şarj modülü
+
+# Yapılacaklar
+- kasanın kalınlığına karar ver
+- buton yerlerini Shapr3D'de dene
+- ışık çubukları için ince difüzör bul

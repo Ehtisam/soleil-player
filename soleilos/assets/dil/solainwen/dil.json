@@ -1,0 +1,15 @@
+{
+  "ad": "SOLAINWEN",
+  "font": "font.ttf",
+  "alfabe": {
+    "not": "Fonttaki sıra bu listelerdeki sıra: ilk sesler U+E000'dan, ünlüler U+E100'dan, özel ünsüzler U+E200'dan başlar.",
+    "ilk": ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "x", "y", "z",
+            "cr", "br", "dr", "fr", "gr", "pr", "tr", "vr", "bl", "cl", "fl", "gl", "pl", "sp", "st", "sc",
+            "str", "scl", "spl", "ch", "ph", "gn", "sbr", "mn", "ct", "tm", "th", "rh", "pt"],
+    "orta": ["a", "e", "o", "i", "u", "ü", "ö",
+             "ai", "ae", "au", "eau", "eu", "oeu", "ou", "oi", "ui", "ia", "ie", "io", "iu", "ua", "ue", "uo", "uai",
+             "eg"],
+    "son": ["s", "r", "t", "n", "m", "d", "l", "c", "k", "p", "b", "f", "v", "x", "z",
+            "pt", "st", "nt", "ct", "rt", "rs", "lt", "ng", "rd", "nd", "nc", "ns"]
+  }
+}

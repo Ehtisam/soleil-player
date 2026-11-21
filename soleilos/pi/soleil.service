@@ -1,0 +1,17 @@
+[Unit]
+Description=SoleilOS
+After=sound.target network-online.target
+Wants=network-online.target
+
+[Service]
+# root: WS2812B (PWM/DMA) ve rfkill bunu istiyor
+User=root
+Environment=SOLEIL_HOME=__SOLEIL_HOME__
+Environment=PYTHONUNBUFFERED=1
+WorkingDirectory=/opt/soleil/soleilos
+ExecStart=/opt/soleil/venv/bin/python main.py --cihaz pi
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

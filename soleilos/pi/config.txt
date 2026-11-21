@@ -1,0 +1,32 @@
+
+# --- SoleilOS ---
+# kurulum.sh bu bloğu config.txt'nin sonuna ekler. DENENECEK satırlar
+# parçalar gelince doğrulanacak.
+
+# Ekran: 3.5" ILI9486, SPI. Kernel sürücüsü /dev/fb1 açar, SoleilOS oraya çizer.
+# Ekran DİKEY (320x480) açılmalı; yatay açılırsa rotate 90/270 yerine 0/180 dene.
+# speed: 32 MHz sorun çıkarırsa 24000000 / 16000000. (DENENECEK)
+# piscreen overlay'i dokunmatik için GPIO 17, 7, 9'u, arka ışık için 22'yi
+# ayırır: tuşlar bu yüzden bu pinlerde değil (bkz. soleil/hw/pins.py).
+dtparam=spi=on
+dtoverlay=piscreen,speed=32000000,rotate=0,fps=30
+
+# I2C: pil ölçümü (INA219), güç yöneticisi (ATtiny85), saat modülü (DS3231)
+dtparam=i2c_arm=on
+
+# Saat modülü: elektrik kesikken de saati tutar; açılışta sistem saati
+# ondan ayarlanır, internet gelince düzeltilir. (DENENECEK)
+dtoverlay=i2c-rtc,ds3231
+
+# GPIO 14/15 seri konsol yerine amfi ve LED gücüne veriliyor
+enable_uart=0
+
+# Ses: Pi'nin kendi analog sesi kapalı, I2S kullanılıyor.
+# PCM5102 (kulaklık) ve MAX98357A (hoparlör) aynı veri hattında, INMP441
+# mikrofon da aynı saat hatlarında. Tek overlay ile hem çıkış hem giriş:
+# (DENENECEK; olmazsa sadece çıkış için: dtoverlay=hifiberry-dac)
+dtparam=audio=off
+dtoverlay=googlevoicehat-soundcard
+
+# HDMI kullanılmıyor: biraz güç kazancı
+hdmi_blanking=2

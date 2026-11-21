@@ -1,0 +1,13 @@
+pygame>=2.5
+# Ses motoru (libmpv ayrıca gerekir, bkz. README) ve müzik etiketleri
+python-mpv>=1.0
+mutagen>=1.47
+# Ses Kaydedici: mikrofon (PC'de bilgisayarın mikrofonu, Pi'de INMP441)
+sounddevice>=0.4
+# İsteğe bağlı, Spotify şarkı sözleri için (bkz. soleil/lyrics.py):
+# spotifyscraper
+# Görsel görüntüleyici (JPEG küçültme, telefon fotoğraflarının yönü, tema filtresi)
+# ve tools/ altındaki araçlar için:
+Pillow>=10
+numpy>=1.26
+# Sadece Pi'de (pi/kurulum.sh kurar): gpiozero, lgpio, rpi_ws281x
